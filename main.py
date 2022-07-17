@@ -14,7 +14,7 @@ pygame.display.set_caption("Flappy Bird")
 
 BIRD_IMGS =[pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird1.png")))], [pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird2.png")))], [pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bird3.png")))]
 
-STAT_FONT = pygame.font.SysFont('comicsans', 50)
+STAT_FONT = pygame.font.SysFont('ariel', 50)
 
 GEN = -1
 
